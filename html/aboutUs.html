@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="..\images\logo_whitebg.png" type="image/x-icon">
+        <link rel="stylesheet" href="..\css\GeneralWebpageCSS.css">
+        <link rel="stylesheet" href="..\css\AboutUsCSS.css">
+        <title>About Us</title>
+    </head>
+
+    <body>
+        <div class="nav-wrapper" id="nav-wrapper">
+            <a href="homePage.html" title="Home Page" onclick="loggedIn()"> <img src="..\images\logowithtext.png" alt="School Logo"> </a>
+            <nav class="navbar">
+                <ul id="navFormat">
+                <li><a href="subjects.html" title="Subjects Offered!" onclick="loggedIn()">SUBJECTS</a></li>
+                <li><a href="enroll.html" title="Enroll Now!" onclick="loggedIn()">ENROLL</a></li>
+                <li><a href="aboutUs.html" title="Learn More About Us!" onclick="loggedIn()">ABOUT US</a></li>
+                </ul>
+                </nav>
+            <span class="menu"  id="Menu" >Menu</span>
+        </div>
+
+        <div class="aboutus-image-area">
+            <img src="..\images\school banner.jpg" alt="Image of school">
+        </div>
+
+        <nav id="aboutus-tab-bar">
+            <ul class="aboutus-tab-container">
+                <li><button class="button" onclick="hideShowAbout()">About</button></li>
+                <li><button class="button" onclick="hideShowTeachers()">Teachers</button></li>
+                <li><button class="button" onclick="hideShowContact()">Contact Us</button></li>
+            </ul>
+        </nav>
+        <main>
+        <div id="About" class="aboutus-wrapper">
+            <div class="flex-item flex-direction-col">
+                <h1>Welcome to Green Valley High</h1>
+                    <p>Green Valley High is a nurturing educational institution that empowers students to excel academically and personally. Our dedicated faculty fosters a culture of excellence, ensuring each student receives a well-rounded education to succeed in today's world. We prioritize diversity and inclusivity, offering comprehensive academic programs and engaging extracurricular activities to create a dynamic high school experience.</p>
+                    <p>Committed to innovation and student success, Green Valley High School provides modern facilities, cutting-edge technology, and dynamic teaching methods. We prepare students for the future by emphasizing critical thinking, creativity, and collaboration. As a cornerstone of the community, we aim to inspire students to become compassionate, responsible global citizens who positively impact society.</p>
+            </div>
+
+            <div class="flex-container flex-direction-col">
+                <p class="subHeadingFormat">A Message From Our Principle</p>
+                <div class="flex-item">
+                    <div class="flex-container principle-msg">
+                        <img src="..\images\principle.jpg" class="flex-item principle-img" style="flex:1;" alt="Principle">
+                        <p class="flex-item principle-welcome-msg" style="flex: 3;">
+                            <span id="greetingHeader">Greetings, Valleyans!</span>
+                            <br>As the principal, I am delighted to welcome you to a place where learning, growth, and community thrive! 
+                            At Green Valley, we are committed to providing a supportive environment where every student can excel academically and personally. 
+                            Together, let's embark on a journey of discovery, achievement, and camaraderie. I look forward to seeing each of you 
+                            flourish and make a positive impact. Once again... Welcome to Green Valley High, where your potential is our priority!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container gallery-container">
+                <div class="flex-item" style="flex: 1;">
+                    <p class="subHeadingFormat">Our Mission</p>
+                </div>
+                <div class="flex-container flex-direction-col" style="flex: 5;">
+                    <div class="flex-container mission-goal-img">
+                        <div class="flex-item">
+                            <img src="..\images\mission3.jpg">
+                        </div>
+                        <div class="flex-item">
+                            <img src="..\images\mission2.jpg">
+                        </div>
+                        <div class="flex-item">
+                            <img src="..\images\mission1.png">
+                        </div>
+                    </div>
+                    <div class="flex-item" style="flex:3;">
+                        <p>The mission of Green Valley High School is to inspire and empower students to reach their full potential by providing a nurturing and inclusive learning environment. We are dedicated to fostering academic excellence, creativity, and critical thinking skills in our students. Through innovative teaching methods and comprehensive programs, we prepare students to thrive in a rapidly changing world while instilling values of compassion, responsibility, and integrity.<br><br><br>
+                            At Green Valley High School, our mission is to cultivate a community where diversity is celebrated, and every student is valued and respected. We strive to create a supportive atmosphere that encourages personal growth, leadership development, and a lifelong love for learning. By promoting a culture of collaboration and engagement, we aim to equip our students with the knowledge, skills, and values needed to make a positive impact on their communities and beyond.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-container gallery-container goal-container">
+                <div class="flex-container flex-direction-col" style="flex: 5;">
+                    <div class="flex-container mission-goal-img">
+                        <div class="flex-item">
+                            <img src="..\images\goal1.jpg">
+                        </div>
+                        <div class="flex-item">
+                            <img src="..\images\goal2.jpg">
+                        </div>
+                        <div class="flex-item">
+                            <img src="..\images\goal3.jpg">
+                        </div>
+                    </div>
+                    <div class="flex-item" style="flex:3;">
+                        <p>At Green Valley High School, our goals revolve around fostering a holistic educational environment that empowers students to excel academically and personally. We aim to cultivate a culture of continuous improvement and innovation, where students are encouraged to think critically, embrace creativity, and collaborate effectively. Our primary objective is to equip students with the necessary skills and knowledge to thrive in an ever-changing world while instilling values of compassion, responsibility, and integrity.<br><br><br>
+                            Through comprehensive programs, modern facilities, and dynamic teaching methods, we aspire to create a supportive atmosphere that nurtures personal growth, leadership development, and a lifelong passion for learning. Our overarching goal is to inspire students to become compassionate, responsible global citizens who positively impact society and contribute meaningfully to their communities and beyond.</p>
+                    </div>
+                </div>
+                <div class="flex-item" style="flex: 1;">
+                    <p class="subHeadingFormat">Our Goals</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Teachers" class="aboutus-wrapper">
+            <div class="flex-item">
+                <h1 id="teachers">Our Teachers</h1>
+                <p>The teachers at Green Valley High School embody a mindset of dedication, passion, and continuous learning. Committed to inspiring and guiding students, our educators uphold the highest moral standards of integrity, fairness, and respect. They believe in the potential of every student and strive to create a supportive and challenging academic environment where excellence is nurtured, and individual growth is encouraged. With a focus on empathy, collaboration, and innovation, our teachers serve as role models who instill a love for learning, critical thinking, and ethical decision-making in their students.</p>
+            </div>
+            
+            <div class="flex-item flex-direction-col">
+                <section class="teacher-profiles">
+                    <div class="teacher-profile">
+                        <img src="..\images\teacher1.jpg" alt="Teacher 1">
+                        <h3>Adeline Swift</h3>
+                        <h4>Subject: English</h4>
+                        <p>"I am a dedicated English teacher, passionate about fostering a love for literature and writing in my students. I strive to create a vibrant and engaging learning environment that encourages critical thinking and creativity."</p>
+                    </div>
+                    <div class="teacher-profile">
+                        <img src="..\images\teacher2.jpg" alt="Teacher 2">
+                        <h3>Jamie Brown</h3>
+                        <h4>Subject: Mathematics</h4>
+                        <p>"My goal is to make math fun for pupils and make it easier for them to understand difficult ideas. In order to make math interesting and approachable for all students, my method places a strong emphasis on interactive learning and real-world applications."</p>
+                    </div>
+                    <div class="teacher-profile">
+                        <img src="..\images\teacher3.jpg" alt="Teacher 3">
+                        <h3>Jayden Lee</h3>
+                        <h4>Subject: Physical Education</h4>
+                        <p>"I am devoted to promoting physical well-being and fostering a passion for fitness among students. My focus is on creating engaging and interactive activities that encourage a healthy and active lifestyle for all."</p>
+                    </div>
+                    <div class="teacher-profile">
+                        <img src="..\images\teacher4.png" alt="Teacher 4">
+                        <h3>Madeline Chew</h3>
+                        <h4>Subject: Biology</h4>
+                        <p>"I genuinely care about igniting my pupils' curiosity about the complex realm of biology and helping them to feel awe for living things. I want to spark a deep appreciation and respect for the wonders of biology by leading interesting experiments and encouraging inquiry."</p>
+                    </div>
+                    <div class="teacher-profile">
+                        <img src="..\images\teacher5.jpg" alt="Teacher 5">
+                        <h3>Susan Tan</h3>
+                        <h4>Subject: Chemistry</h4>
+                        <p>"I sincerely hope that my pupils will develop an appreciation for living things and an interest in the complex field of biology. I want to kindle a deep awareness and admiration for the wonders of biology by supporting fascinating experiments and encouraging discovery."</p>
+                    </div>
+                    <div class="teacher-profile">
+                        <img src="..\images\teacher6.jpg" alt="Teacher 6">
+                        <h3>Andrew Walker</h3>
+                        <h4>Subject: Physics</h4>
+                        <p>"I firmly believe that my job as an educator is to pique students' interest in physics and help them to wonder about the basic forces. I want to promote a deep grasp and appreciation of physics through interesting experiments and demonstrations."</p>
+                    </div>
+                    <div class="teacher-profile">
+                        <img src="..\images\teacher7.jpg" alt="Teacher 7">
+                        <h3>Jessica Sanders</h3>
+                        <h4>Subject: Business</h4>
+                        <p>"As a seasoned business educator, my goal is to support the development of aspiring business owners and future leaders. In order to provide a solid foundation in business education, my teaching approach is on empowering students through real-world scenarios and practical applications."</p>
+                    </div>
+                    <div class="teacher-profile">
+                        <img src="..\images\teacher8.jpg" alt="Teacher 8">
+                        <h3>Amelia Watson</h3>
+                        <h4>Subject: Arts</h4>
+                        <p>"I work to encourage my pupils' creativity and self-expression using a variety of media, including painting, drawing, and sculpture. My goal is to establish a lively and welcoming learning environment where students can discover their creative abilities and grow to have a profound respect for the arts."</p>
+                    </div>
+                    <div class="teacher-profile">
+                        <img src="..\images\teacher9.jpg" alt="Teacher 9">
+                        <h3>Jason Khu</h3>
+                        <h4>Subject: Information Technology</h4>
+                        <p>"Teaching students the knowledge and abilities they need to succeed in the ever changing realm of technology is my passion as an IT educator. Instilling in my students a passion for problem-solving, coding, and digital literacy will set them up for future success in the IT sector."</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <div id="Contact" class="aboutus-wrapper">
+            <script src="..\javascript\aboutusJava.js"></script>
+            <h1 id="contact">Contact Us</h1>
+            <p>If you have any questions about our school, feel free to reach out to us using the form below:</p>
+
+            <p id="thank-you-message">
+                Thank you for contacting us. We will respond as soon as possible!
+            </p>
+
+            <form class="contact-form" name="Form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="e.g. John Doe">
+                <p id="fill-name">
+                    Please fill in your name!
+                </p>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="e.g. johndoe@gmail.com">
+                <p id="fill-email">
+                    Please fill in your Email!
+                </p>
+                <p id="valid-email">
+                    Please enter a valid Email!
+                </p>
+
+                <label for="question">Question:</label>
+                <textarea id="question" name="question" rows="4" cols="50"></textarea>
+                <p id="fill-question">
+                    Please fill in your question!
+                </p>
+
+                <div class="submit-center">
+                    <input id="form-button" type="button" value="Submit" onclick="Validate()">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-flex-container">
+            <div class="footer-flex-box">
+                <div class="footer-flex-item" style="flex: 3;">
+                    <p><b>Address</b><br>Green Valley Highschool<br>City, State, Zip Code</p>
+                </div>
+                <div class="footer-flex-item" style="flex: 2;">
+                    <p><b>Contact No.</b><br>+601-2345-6789</p>
+                </div>
+                <div class="footer-flex-item" style="flex: 3;">
+                    <p><b>Email</b><br>info@greenvalleyhigh.edu.my</p>
+                </div>
+                <div class="footer-flex-item" style="flex: 2;">
+                    <p><b>Connect with us:</b></p>
+                    <img href="#" class="icon-logo" src="..\images\instagram_icon.png" alt="Instagram Link">
+                    <img href="#" class="icon-logo" src="..\images\facebook_icon.png" alt="Facebook Link">
+                </div>
+                <div class="footer-flex-item" style="flex: 2;"> 
+                    <img src="..\images\logo_whitebg.png" class="footer-sch-logo" alt="School Logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+            <script src="..\javascript\generalJS.js"></script>
+    </body>
+</html>

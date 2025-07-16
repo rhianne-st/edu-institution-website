@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="..\images\schoolLogo.png" type="image/x-icon">
+        <link rel="stylesheet" href="..\css\registration.css">
+        <title>Sign In - Green Valley High</title>
+    </head>
+    
+    <body>
+        <main>
+            <div class="register-wrapper">
+                <div class="container" id="container">
+                    <p class="title">Sign In</p>
+                    <p>Sign in to start enrolling for your subjects!</p>
+                    <form id="signIn" name="signIn" method="get" action="enroll.html">
+                        <div class="group">
+                            <label for="email">Email Address: </label>
+                            <input type="email" id="email" name="email" placeholder="e.g. johndoe@gmail.com">
+                        </div>
+                        <div>
+                            <p class="error" id="emailError">Please fill in your email</p>
+                            <p class="error" id="emailFormatError">Email provided is in wrong format</p>
+                        </div>
+                        <div class="group">
+                            <label for="password">Password: </label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div>
+                            <p class="error" id="passwordError">Please fill in password</p>
+                            <p class="error" id="passwordFormatError">Password must be 8 characters or more with at least one symbol and number!</p>
+                        </div>
+                        <div class="group">
+                            <button type="submit" name="submitted"  value="true" onclick="return SignIn()">Sign In</button>
+                        </div>
+                    </form>
+                    <hr> 
+                    <div>
+                        Don't have an account?
+                        <a href="SignUp.html">Click here to create an account</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="..\javascript\registration.js"></script>
+</html>
