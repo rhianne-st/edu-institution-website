@@ -1,0 +1,117 @@
+@media ((min-width:320px)){
+    .container{
+        width:100%;
+        border-radius: 5px;
+        background-color: #f4f4f4;}
+
+}
+
+@media ((min-width:1024px)){
+body {
+    background-color: #f4f4f4;
+    background-repeat: no-repeat;
+    background-image: url(../images/school.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#36454f;
+    padding:20px;
+}
+
+.container {
+    min-width: 400px;
+    max-width:600px;
+    margin:0 auto auto 10px;
+    padding:15px;
+    width:400px;
+    height:auto;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.container .title {
+    font-size:3.2em;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container p {
+    font-size: 0.9em;
+    margin-bottom: 40px;
+}
+.error{
+    width:100%;
+    color:#dc1444;
+    display:none;
+}
+.group{
+    margin: 35px 10px;
+}
+
+.group label{
+    display:block;
+    margin-top:10px;
+}
+
+.group select, .group input{
+    background-color:#f4f4f4;
+    width:90%;
+    padding:10px;
+    outline:none;
+    border:none;
+    border-bottom:2px solid #36454f;
+
+}
+
+.group input:hover, .group select:hover{
+    background-color: #dedede;
+}
+
+.group input:focus, .group select:focus{
+    outline:none;
+    background-color: #e7dede;
+    border-bottom:2px solid #dc1444;
+}
+.group button{
+    display:block;
+    font-size:medium;
+    width:260px;
+    height: 60px;
+    padding-left:5px;
+    padding-right:5px;
+    border: none;
+    margin: 10px auto;
+    border-radius:50px;
+    background-color:#006400;
+    color: #f4f4f4;
+    cursor:pointer;
+    transition: ease-out 1s;
+}
+
+.group button:hover{
+    background-color:#98fb98;
+    color: #36454f;
+    width:300px;
+    
+}
+
+.group button:active{
+    background-color:#dc1444;
+    color:#f4f4f4
+}
+a{
+    color:#36454f;
+    text-align:center ;
+}
+a:hover{
+    text-decoration: none;
+    color:#dc1444;
+}
+
+
+
+

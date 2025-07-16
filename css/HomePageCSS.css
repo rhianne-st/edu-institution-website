@@ -1,0 +1,171 @@
+h1, h3 {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h2 {
+    margin: 5px;
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.4em;
+    padding: 10px 0;
+}
+
+
+
+.section-wrapper {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.welcome-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/welcomebackground.jpeg");
+    height: 55vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome-img-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fffff0;
+    text-shadow: black 0px 1px 5px 1px;
+}
+
+.enquire-now-button {
+    background-color: #dc1444;
+    color: #fffff0;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.enquire-now-button:hover {
+    box-shadow: #fffff0 0 0 10px;
+}
+
+
+
+.search-container {
+    overflow: hidden;
+    display: inline-block;
+    margin: 0;
+}
+
+.search-container input, .search-container select, .search-container textarea {
+    padding: 10px;
+    float: left;
+    width: 75vw;
+    background: #f1f1f1;
+}
+
+.search-container button {
+    float: left;
+    width: 8vw;
+    padding: 10px;
+    background-color: #006400;
+    color: #fffff0;
+    border:none;
+    border-radius:30px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.search-container button:hover {
+    background-color: #98fb98;
+    color:#36453f;
+}
+
+
+
+.facilities-box {
+    text-align: center;
+}
+
+.facilities-box h4 {
+    font-size: 1.4em;
+    padding: 10px 0;
+}
+
+.facilities-box p {
+    color: #36453f;
+    margin: 0;
+}
+
+.facilities-box img {
+    height: 230px;
+}
+
+
+
+.schollife-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.schoollife-table img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    max-height: 40vh;
+}
+
+
+
+.testimonial-flex {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.testimonial-flex p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0 0 5px 0;
+}
+
+.testimonial-flex blockquote {
+    margin: 0;
+}
+
+
+
+@media (max-width: 850px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .paragraph-change p {
+        text-align: center;
+    }
+
+
+    .search-container input, .search-container select, .search-container textarea {
+        width: 65vw;
+    }
+
+    .search-container button {
+        width: 15vw;
+    }
+
+
+    .testimonial-flex:last-of-type {
+        flex-direction: column-reverse;
+    }
+}

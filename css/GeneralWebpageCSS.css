@@ -1,0 +1,256 @@
+body {
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ecedec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#075f07;
+    overflow-x: hidden;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+main p, main blockquote{
+    color:#36453f;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-direction-col {
+    flex-direction: column;
+}
+
+.flex-item {
+    justify-content: center;
+    text-align: center;
+    flex: 1 1;
+    padding: 10px;
+}
+
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    flex: 1;
+}
+
+.align-flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-change p {
+    justify-content: start;
+    text-align: justify;
+}
+
+
+
+.nav-wrapper {
+    top:0;
+    position:sticky;
+    z-index: 2;
+    box-shadow: #36453f 0px 1px 5px 1px;
+    background-color: #36453f;
+    align-items: center;
+    margin:0 auto;
+    display: flex;
+    width:100%;
+    margin:0 auto;
+}
+.nav-wrapper img{
+    height: calc(15vh - 10px);
+    width: calc(15vw-10px);
+    display: block;
+}
+a{
+    color:#fffff0;
+    text-decoration: none;
+    padding:10px;
+    transition:ease-out .4s;
+ }
+.navbar {
+    display: flex;
+    flex-grow:1;
+}
+
+.navbar #navFormat{
+    list-style-type: none;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    gap:1.6rem;
+}
+
+
+
+.navbar a:hover {
+    background-color: #173a2c;
+    border-radius: 1px;
+    border-bottom:3px solid #e8e3e4;
+}
+
+
+.menu{
+    display:none;
+    cursor:pointer;
+    z-index: 100;
+}
+
+
+
+footer {
+    background-color: #006400;
+    color: #fffff0;
+    padding: 10px;
+    height:auto;
+}
+
+.footer-flex-container {
+    display: flex;
+    content: center;
+    height: auto;
+    padding: 0 0 10px 15px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-flex-container .footer-flex-box {
+    display: flex;
+    content: center;
+    height: auto;
+
+    width: 80vw;
+}
+
+.footer-flex-box:first-child {
+    flex: 5;
+}
+.footer-flex-box:last-child {
+    flex: 1;
+}
+
+
+.footer-sch-logo {
+    height: calc(20vh - 10px);
+    width: auto;
+    margin: 0 10px;
+}
+
+.footer-flex-item {
+    justify-content: center;
+    flex: 1;
+    width: auto;
+    text-align: center;
+    flex-direction: row;
+}
+
+.icon-logo {
+    align-items: flex-end;
+    height: 30px;
+    width: auto;
+    margin: 5px;
+}
+
+
+
+@media (max-width: 850px) {
+    
+    .nav-wrapper img{
+        height: calc(10vh - 10px);
+        width: calc(10vw-10px);
+        display: block;
+    }
+
+    .navbar{
+        flex-direction: column;
+        gap:2rem;
+    }
+    .navbar #navFormat{
+        flex-direction: column;
+        gap:3%;
+    }
+    
+    .menu{
+        margin-right:60px;
+        margin-left: auto;
+        display:block;
+        z-index:2;
+        color:#fffff0;
+        font-weight: 600;
+    }
+    .navbar{
+        width: 100%;
+        z-index: 2;
+        display:none;
+        padding-top: 20px;
+        align-items: center;
+        text-align: center;
+        background-color: #36453f;
+        color: white;
+    }
+
+    .navbar li{
+        margin:20px;
+    }
+
+    .navbar.active{
+    height:auto;
+    display:block;
+    }
+
+    footer {
+        background-color: #006400;
+    }
+
+    .footer-flex-container {
+        display: flex;
+        height: auto;
+        padding: 0;
+        gap: 0;
+        justify-content: space-between;
+        align-items: left;
+    }
+    
+    .footer-flex-box {
+        display: flex;
+        height: auto;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-flex-container:last-child {
+        align-items: flex-end;
+    }
+
+
+    .footer-flex-item {
+        justify-content: left;
+        text-align: left;
+    }
+
+    .icon-logo {
+        align-items: baseline;
+        height: 30px;
+        width: auto;
+        margin: 5px;
+    }
+
+    .footer-sch-logo {
+        max-width: 100px;
+        max-height: 100px;
+        margin-top:10px;
+    }
+
+}
+
+

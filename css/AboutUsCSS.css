@@ -1,0 +1,296 @@
+@media screen and (min-width: 320px) {
+    .principle-msg {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .principle-welcome-msg {
+        text-align: center;
+    }
+
+    .teacher-profile img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .gallery-container {
+        flex-direction: column;
+    }
+
+    .goal-container {
+        flex-direction: column-reverse;
+    }
+
+    .mission-goal-img img {
+        height: 300px;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 800px){
+    #aboutus-tab-bar {
+        position: sticky;
+        top: 10vh;
+        z-index: 1;
+        width: 100vw;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .teacher-profile img {
+        width: 130px;
+        height: 130px;
+    }
+    .teacher-profiles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        padding: 10px;
+    }
+}
+@media (min-width: 800px){
+    .teacher-profiles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        padding: 10px;
+    }
+    #aboutus-tab-bar {
+        position: sticky;
+        top: 15vh;
+        z-index: 1;
+        width: 100vw;
+    }
+}
+
+
+/* ABOUT US PAGE */
+h1 {
+    font-size: 2.2em;
+}
+
+.subHeadingFormat{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2em;
+    color:#075f07;
+}
+
+p{
+    font-size:1.1em;
+}
+
+#greetingHeader{
+    color:#075f07;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.aboutus-image-area {
+    width: 100vw;
+}
+
+.aboutus-image-area img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.aboutus-wrapper {
+    padding: 5px 25px 5px, 25px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.aboutus-tab-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #405e40;
+    width: 100%;
+}
+
+.button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 15px; 
+    color: #fffff0;
+    padding: 15px;
+    box-shadow: none;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #1a8643;
+}
+
+
+
+/* Add CSS for the principle's message */
+.principle-msg {
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.principle-welcome-msg {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.principle-img {
+    float: left;
+    border-radius: 50%;
+    width: 200px; /* Adjust the image size as needed */
+    height: 200px; /* Adjust the image size as needed */
+    object-fit: cover;
+}
+
+
+.gallery-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0;
+}
+
+.mission-goal-img img {
+    height: 230px;
+    flex-wrap: nowrap;
+}
+
+
+
+/* Add CSS for the body */
+#Teachers {
+    display: flex;
+}
+
+/* Add CSS for the body */
+#Contact {
+    display: none;
+    text-align: center;
+}
+
+
+.contact-form-text {
+    float: left;
+}
+
+/* Add CSS for the teachers profiles */
+
+
+.teacher-profile {
+    text-align: center;
+}
+.teacher-profile img {
+    border-radius: 50%;
+    width: 170px; /* Adjust the image size as needed */
+    height: 170px; /* Adjust the image size as needed */
+    object-fit: cover;
+}
+.teacher-profile h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.teacher-profile p {
+    font-size: 0.9em;
+}
+
+/* Add CSS for the image gallery after mission and goals */
+.paragraph-with-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.image-gallery {
+    width: 800px; /* Adjust width as needed */
+    height: 180px; /* Adjust height as needed */
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.image-gallery img {
+    display: inline-block;
+    width: auto; /* Adjust image size as needed */
+    height: 160px; /* Adjust image size as needed */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.contact-form {
+    margin: auto;
+    padding: 20px;
+    max-width: 800px; /* Wider form width */
+    background-color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: left; /* Center form content */
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #36453f;
+}
+.contact-form input[type="text"]:hover, .contact-form input[type="email"]:hover, .contact-form textarea:hover {
+    background-color: #e8e8e8;
+}
+.contact-form input[type="button"] {
+    background-color: #dc1444;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form input[type="button"]:hover {
+    background-color: #b7002b;
+}
+.submit-center {
+    text-align: center;
+}
+#fill-name, #fill-email, #fill-question, #valid-email {
+    display: none;
+    color: red;
+    margin-top: -22px;
+}
+#fill-name.show, #fill-email.show, #fill-question.show, #valid-email.show {
+    display: block;
+}
+
+/* Add CSS for the thank you message after form submission */
+#thank-you-message {
+    display: none;
+    text-align: center;
+}
+#thank-you-message.show {
+    display: block;
+}
+
+h5 {
+    margin: 0;
+}

@@ -1,0 +1,428 @@
+@media (((min-width:320px))){
+    form {
+        max-width: 100%;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        text-align: left;
+        background-color: #f0f0f0;
+    }
+    fieldset {
+        background-color: #ececec;
+        border-radius: 8px;
+        border: 1px solid #333;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: left;
+    }
+    .subjects {
+        display: flex;
+        flex-direction: column;
+        width:100px;
+        justify-content: space-evenly;
+    }
+    /* Add CSS for the Login/SignUp and submit popup*/
+    .popup-overlay,
+    .popup-submit {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 100;
+    }
+    .popup,
+    .submitpopup {
+        font-family: Arial, sans-serif;
+        position: absolute;
+        width: 50%;
+        height:auto;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+}
+@media ((min-width:1024px)){
+/* Add CSS for the body */
+body {
+    text-align: center;
+    background-color: #ccc;
+    overflow-x: hidden;
+    background-image: url(../images/library.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Add CSS for the form */
+form {
+    max-width: 40%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: left;
+    background-color: #f0f0f0;
+    border-radius:10px;
+}
+.popup-overlay,
+.popup-submit {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.popup,
+.submitpopup {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    width: 16%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+}
+label {
+    font-weight: 490;
+    font-size:large;
+}
+input[type="text"] {
+    background-color:#f0f0f0;
+    width: 97%;
+    margin: 5px 0;
+    margin-right: 1.5vw;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #36454f;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #f0f0f0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: width 0.5s, background-color 0.5s;
+}
+select[type="dropdown"] {
+    background-color:#f0f0f0;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 16px;
+    margin-right: 9vw;
+    padding: 10px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #36454f;
+    cursor: pointer;
+}
+select[type="dropdown-subjects"] {
+    background-color:#f0f0f0;
+    width: 11.5vw;
+    margin: 5px 0;
+    font-size: 16px;
+    margin-right: 8vw;
+    padding: 10px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #36454f;
+    cursor: pointer;
+}
+select[type="country"] {
+    background-color:#f0f0f0;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 16px;
+    margin-right: 9vw;
+    padding: 10px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #36454f;
+}
+input[type="submit"]:hover {
+    background-color: #2f7732;
+    width:130px;
+}
+input[type="file"] {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    width: 180px;
+}
+input[type="file"]:hover,
+select[type="country"]:hover,
+select[type="dropdown"]:hover,
+input[type="text"]:hover,
+select[type="dropdown-subjects"]:hover {
+    background-color: #dfdfdf;
+}
+input[type="file"]:focus,
+select[type="country"]:focus,
+select[type="dropdown"]:focus,
+input[type="text"]:focus,
+select[type="dropdown-subjects"]:focus {
+    outline:none;
+    background-color: #e7dede;
+    border-bottom:2px solid #dc1444;
+}
+
+/* CSS to center elements */
+.center {
+    text-align: center;
+}
+
+/* Add CSS for h2 */
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Add CSS for ordered list (Subject Selection)*/
+ol {
+    list-style-type: none;
+}
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Add CSS for the Login/SignUp and submit popup*/
+.popup-content,
+.popup-submitcontent {
+    text-align: center;
+}
+.popup .close {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+}
+.popup button, 
+.submitpopup button {
+    background-color: #006400;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 90%;
+    height: auto;
+    transition:ease-out .5s;
+}
+.popup button:hover, 
+.submitpopup button:hover {
+    background-color: #132e13;
+    transform: scale(0.9);
+
+}
+
+.signuphere {
+    color: #0f2838;
+}
+.signuphere:hover {
+    color: #0e5f91;
+}
+
+/* Add CSS for the tabs */
+.tabs {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    width: 100vw; /* Extend to screen edge */
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Center tabs */
+    margin: 0; /* Remove default margin to extend to top edge */
+    padding: 0; /* Remove default padding to extend to top edge */
+}
+.tab-item {
+    float: left;
+}
+.tab-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.tab-item a:hover {
+    background-color: #555;
+}
+
+/* Add CSS for the logo */
+.logo {
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+
+
+/* Add CSS for Enrollment Application title */
+.top {
+    padding: 8px;
+    background-color: #ccc;
+    opacity: 0.8;
+}
+
+/* Add CSS for the name input field */
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 103.7%;
+    margin-bottom: 20px;
+}
+
+/* Add CSS for the city and state input field */
+.cityState {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 103.7%;
+}
+
+/* Add CSS for Subject Enrollment */
+fieldset {
+    display:none;
+    background-color: #ececec;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.subjects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin-left: 1.5vw;
+    margin-right: -4.8vw;
+    margin-bottom: 20px;
+}
+legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Add CSS for spacing out name, city and state input fields*/
+.fillbox {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    width: 90%;
+}
+
+/* Add CSS for error messages */
+#fill-street,
+#fill-city,
+#fill-state {
+    display: none;
+    color: red;
+    margin-right: 2.9vw;
+    margin-top: -0.1vw;
+}
+#select-grade,
+
+#select-subject,
+#select-subject2,
+#select-subject3,
+#select-subject4,
+#select-subject5,
+#select-subject6{
+    display: none;
+    color: red;
+    margin-top: 0;
+}
+#fill-fname, 
+#fill-lname {
+    display: none;
+    color: red;
+    margin-right: 4.5vw;
+    margin-top: -1.2vw;
+}
+#fill-id, 
+#check-id,
+#fill-postcode, 
+#check-postcode,
+#select-grade,
+#select-intake,
+#submit-face,
+#submit-id,
+#select-country {
+    display: none;
+    color: red;
+    margin-top: -2vw;
+    margin-bottom: 20px;
+}
+#fill-fname.show, 
+#fill-lname.show,
+#fill-id.show, 
+#check-id.show,
+#fill-street.show,
+#fill-city.show,
+#fill-state.show,
+#fill-postcode.show,
+#check-postcode.show,
+#select-grade.show, 
+#select-intake.show, 
+#submit-face.show,
+#submit-id.show,
+#select-country.show,
+
+#select-subject.show,
+#select-subject2.show,
+#select-subject3.show,
+#select-subject4.show,
+#select-subject5.show,
+#select-subject6.show{
+    display: block;
+}
+
+#tohome {
+    padding-left: 43%;
+    padding-right: 43%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    margin: -20px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
