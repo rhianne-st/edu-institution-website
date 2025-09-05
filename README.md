@@ -1,17 +1,17 @@
 # 📚 Education Institution Website
-This is a institution website for a made-up school using HTML, CSS, and JavaScript, without any frameworks, created by a group of 4 members.
-<br>TO NOTE: This project is built for a *Web Fundamentals* course assignment on **Visual Studio Code**.
+This is a institution website for a fictional school using HTML, CSS, and JavaScript, without any frameworks.
 
 ## Techniques Applied
-- Design and layout (HTML demonstration)
-- Styling and colour (CSS inclusion)
-- Labels, textboxes, dropdown lists, buttons, links, navigations
-- Multimedia objects (images)
-- Contact form (JavaScript implementation)
-- Sign-up and log-in function
-- Scaling and responsive layout on different viewport sizes, cross-browser compatible
+- **HTML Design & Layout:** Structured page content with semantic HTML
+- **CSS Styling:** Applied colors, typography, and layouts for consistent design
+- **UI Components:** Labels, textboxes, dropdown lists, buttons, links, and navigations
+- **Multimedia Integration:** Embedded images to enhance presentation
+- **Contact Form:** Implemented with JavaScript for interactivity
+- **Authentication Mockup:** Basic sign-up and login function
+- **Responsive Design:** Scales across different viewport sizes and browsers
 
 ## Folder Structure
+```
 edu-institution-website/
 <br>├── css/         # All CSS styling files are here
 <br>├── html/        # All HTML files are here
@@ -19,15 +19,27 @@ edu-institution-website/
 <br>├── javascript/  # JavaScript implementation codes
 <br>├── LICENSE
 <br>└── README.md
+```
 
 ## How to Run?
-1. Clone or download the repository.
-2. Open the project your preferred IDE.
-3. Run the `homePage.html` file (found in `html/` folder) in your preferred browser.
+1. **Clone the repository:**
+   ```
+   git clone <repo-url>
+   cd edu-institution-website
+   ```
+2. Open the project in your preferred IDE (e.g., Visual Studio Code).
+3. Launch the site by opening `html/homePage.html` in your browser.
 
-## Further Notes
-- All images are sourced online
-- Certain icons are created by ourselves using Canva
+## Limitations & Future Enhancements
+### Limitations
+- Website is static (no backend or database integration)
+- Login/Sign-up functionality is simulated, not secure or persistent
+
+### Future Enhancements
+- Implement backend integration (Node.js, PHP, or Django) for authentication and data handling
+- Improve responsive design with modern CSS techniques (Flexbox, Grid)
+- Enhance form validation with stronger JavaScript or server-side logic
+- Add enhanced accessibility features for inclusive design.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
